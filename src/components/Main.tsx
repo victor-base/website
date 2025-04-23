@@ -14,7 +14,9 @@ function Main() {
 					The best vector database for your projects
 				</p>
 				<button className="px-6 py-3 bg-white text-black rounded-lg hover:bg-gray-200 transition">
-					Show me the code!
+					<a href="https://github.com/victor-base" className="text-inherit">
+						Show me the code!
+					</a>
 				</button>
 			</div>
 		</main>
