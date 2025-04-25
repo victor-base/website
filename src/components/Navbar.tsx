@@ -25,12 +25,7 @@ function Navbar() {
 							Code
 						</a>
 					</li>
-					<li className="hover:text-blue-400 transition">
-						<Link to="/releases" className="text-inherit">
-							Releases
-						</Link>
-					</li>
-					<li className="hover:text-blue-400 transition">Discussion Forum</li>
+					<li className="hover:text-blue-400 transition">Discord Community</li>
 				</ul>
 			</div>
 		</nav>
