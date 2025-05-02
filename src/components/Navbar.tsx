@@ -25,7 +25,16 @@ function Navbar() {
 							Code
 						</a>
 					</li>
-					<li className="hover:text-blue-400 transition">Discord Community</li>
+					<li className="hover:text-blue-400 transition">
+						<a
+							href="https://discord.gg/7CjXwcWb"
+							className="text-inherit"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							Discord Community
+						</a>
+					</li>
 				</ul>
 			</div>
 		</nav>
