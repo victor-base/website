@@ -36,8 +36,11 @@ function Navbar() {
 						</a>
 					</li>
 					<li className="hover:text-blue-400 transition">
+						<Link to="/colaborators">Colaborators</Link>
+					</li>
+					<li className="hover:text-blue-400 transition">
 						<a
-							href="https://discord.gg/7CjXwcWb"
+							href="https://discord.me/victorbase"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
@@ -64,6 +67,13 @@ function Navbar() {
 					>
 						Code
 					</a>
+					<Link
+						to="/colaborators"
+						className="hover:text-blue-400"
+						onClick={() => setIsOpen(false)}
+					>
+						Colaborators
+					</Link>
 					<a
 						href="https://discord.gg/7CjXwcWb"
 						target="_blank"

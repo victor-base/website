@@ -2,6 +2,7 @@ import Footer from './components/Footer';
 import Main from './components/Main';
 import Navbar from './components/Navbar';
 import Documentation from './pages/Documentation';
+import Colaborators from './pages/Colaborators';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
 
@@ -12,6 +13,7 @@ function AppContent() {
 			<Routes>
 				<Route path="/" element={<Main />} />
 				<Route path="/documentation" element={<Documentation />} />
+				<Route path="/colaborators" element={<Colaborators />} />{' '}
 			</Routes>
 			<Footer />
 		</div>
